@@ -121,11 +121,8 @@ img{
 }
 .apariçao{
     height: 100vh;
-    background-color: #fff;
+    background-color:black;
     padding: 80px;
-    display: flex;
-    flex-direction: row;
-    
 }
 .cards{
     display: flex;
@@ -154,4 +151,26 @@ img{
     height: 250px;
     object-fit: cover;
     
+}
+.card h3{
+    padding: 20px 20px 10px;
+    font-size: 22px;
+}
+.card p{
+    padding: 0 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.card a{
+    display: block;
+    text-align: center;
+    color:  rgb(0, 136, 0);
+    background-color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+.card a:hover{
+    background-color:  rgb(0, 136, 0);
+    color:black;
 }
